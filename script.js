@@ -19,6 +19,7 @@ function imageLoaded() {
     ready = true;
     loader.hidden = true;
   }
+
 }
 
 // Helper Function to Set Attributes on DOM Elements
