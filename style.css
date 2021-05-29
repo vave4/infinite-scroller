@@ -29,8 +29,8 @@ h1 {
   position: fixed;
   top:50%;
   bottom: 50%;
-  left: 50%;
-  right: 50%;
+  left: 45%;
+  right: -10%;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
@@ -69,10 +69,16 @@ h1 {
   }
   .image-container{
     margin: 15px 2.5%;
-    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
   }
   .image-container img:hover {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
    transform: scale(1);
+}
+.loader {
+  position: fixed;
+ top:50%;
+  bottom: 50%;
+  left: 33%;
+  right: -5%;
 }
 }
